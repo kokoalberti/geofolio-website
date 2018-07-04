@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% block headcss %}
+<link rel="stylesheet" href="/static/css/home.css">
+{% endblock %}
+{% block navigation %}
+{% include 'generic/navigation.html' %}
+{% endblock %}
+
+{% block title %}
+Geofolio - Home
+{% endblock %}
+
+{% block body %}
+
+<div id="lead-wrapper">
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-sm-10">
+		<!-- <img src="/static/gfx/geofolio.png" style="height:25vh;margin:2rem;opacity:0.9"> -->
+		<h1>Geofolio is a non-profit that makes the world's environmental data accessible and understandable for everyone</h1>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+<div id="lead" style="">
+<div class="container" style="font-size:1.2em;text-align:left;">
+
+	<div class="row align-items-center">
+
+		<div class="col-sm-8" style="text-align:left;">
+			<p style="font-size:1.2em;line-height:1.6em;color:#444;padding-top:30px;padding-bottom:30px;margin:0;">
+				Define an area of interest anywhere in the world, and we'll automagically create environmental factsheets containing curated maps, charts, written overviews, and statistical summaries &ndash; all based on open geodata.
+			</p>
+		</div>
+		<div class="col-sm-4" style="text-align:right;">
+			<a class="btn btn-primary" href="#" style="font-weight:700;font-size:1.5rem;line-height:1.5em;margin-bottom:30px;margin-top:30px;" role="button">&nbsp;&nbsp;Get started for free!&nbsp;&nbsp;</a>
+		</div>
+	</div>
+</div>
+</div>
+<!--
+<div style="background-color:#f5f5f5;padding:20px;text-align:center;border-bottom:0px dashed #ccc;">
+<div class="container">
+		<p class='lead'>
+			<a class="btn btn-primary" href="#" role="button">Get started now</a> &nbsp;
+			<a class="btn btn-light" href="#" role="button">Check out features</a>
+			 or find out more <a class="" href="#">about what Geofolio can do</a>.
+		</p>
+</div>
+</div>
+-->
+<div class="container" style="padding-top:30px;font-size:1.2em;text-align:center;">
+	<div class="row">
+		<div class="col-lg-3">
+			<div id="features-left">
+				<ul>
+				<li>Factsheets containing info on vegetation, agriculture, soils, energy, weather and 
+			climate, and land use</li>
+				<li>Written summaries of important data</li>
+				<li>References, attribution, and licensing information</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-6">
+
+			<img src="/static/gfx/factsheet_sm.svg" style="width:100%;">
+		</div>
+		<div class="col-lg-3">
+			<div id="features-right">
+				<ul>
+					<li>Interactive charts and summary statistics that provide insight</li>
+					<li>Curated maps with clear legends</li>
+					<li>Source data can be easily downloaded</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div style="background-color:#fff;display:none;">
+<div class="container" style="padding-top:20px;font-size:1.2em;text-align:left;">
+<!-- 	<div class="row">
+		<div class="col-sm-12" style="text-align:left;">
+			<p>It works like this:</p>
+		</div>
+	</div> -->
+
+	<div class="row">
+
+		<div class="col-sm-6">
+			<p style="color:#222;">
+				<strong>Step 1:</strong> Select an area of interest.
+			</p>
+			<p style="font-size:1.2em;line-height:1.4em;color:#444;">
+				Select an area of interest anywhere in the world.
+			</p>
+		</div>
+		<div class="col-sm-6">
+			<p style="color:#222;">
+				<strong>Step 2:</strong> There isn't one.
+			</p>
+			<p style="font-size:1.2em;line-height:1.4em;color:#444;">
+				We'll automagically create various <a href="">environmental factsheets</a> containing curated maps, charts, written summaries and statistics for your area of interest.
+			</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<div style="border-top:1px solid #ddd;">
+<div class="container" style="padding-top:20px;font-size:1.2em;text-align:left;color:#666;margin-top:0px;margin-bottom:20px;">
+	<div class="row">
+		<div class="col text-center" style="color:#bbb;padding-bottom:10px;">
+			Built with data products from
+		</div>
+	</div>
+	<div class="row" style="padding-top:15px;padding-bottom:20px;">
+
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/nasa.png">
+
+			</div>
+		</div>
+		<div class="col" style="">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/esa.png">
+
+			</div>
+		</div>
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/isric.png">
+
+			</div>
+		</div>
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/fao.png">
+
+			</div>
+		</div>
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/usgs.png">
+
+			</div>
+		</div>
+
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/umd.jpg">
+
+			</div>
+		</div>
+
+		<div class="col">
+			<div class="data-provider-image" style="background-image:url('/static/gfx/data-providers/jrc.png">
+
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+{% endblock %}
